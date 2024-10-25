@@ -9,8 +9,7 @@ Exercises
 """
 
 from random import randrange
-from turtle import *
-
+from turtle import setup, hideturtle, tracer, listen, onkey, done, clear, update, ontimer
 from freegames import square, vector
 
 food = vector(0, 0)
@@ -68,4 +67,3 @@ onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
 move()
 done()
-#Hola
